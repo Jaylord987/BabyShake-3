@@ -1,3 +1,27 @@
+import time
+def timer(x):
+    while x > 0:
+        print(x)
+        x = x - 1
+        if x == 0:
+            print("TIMES UP BRUHHH")
+            timeup = True
+            
+
+
+#120 is the magic number for 5 secs!
+            
+def minigame():
+    print("Welcome to the BabyFeeling MiniGame")
+    print(".")
+    print(".")
+    print(".")
+    print(".")
+    print(".")
+    print(".")
+    print("COMPLETE EACH TASK IN UNDER 5 seconds")
+    grrr = input("press enter to start the minigame")
+
 while True:
     easter_egg_count = 0
     print(".")
@@ -584,7 +608,10 @@ while True:
     print(".")
     help = input("type help for Easter egg clues!")
     if help == "help":
-        print("1:Toddlers favorite word. 2:gender is a social construct. 3:SATAN")
+        print("1:Toddlers favorite word. 2:gender is a social construct. 3:SATAN 4:opposote of help")
+    if help == "hurt":
+        print("you have discovered the ultimate secret of babyshake")
+        minigame()
     else:
         print("thank you for playing!")
 
