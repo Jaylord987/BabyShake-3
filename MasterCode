@@ -1,11 +1,13 @@
 import time
 def timer(x):
     while x > 0:
-        print(x)
         x = x - 1
         if x == 0:
             print("TIMES UP BRUHHH")
             timeup = True
+        else:
+            timeup = False
+            
             
 
 
@@ -21,6 +23,24 @@ def minigame():
     print(".")
     print("COMPLETE EACH TASK IN UNDER 5 seconds")
     grrr = input("press enter to start the minigame")
+    print(".")
+    print(".")
+    print(".")
+    print(".")
+    print(".")
+    question1 = int(input("2 + 5"))
+    timer(120)
+    if question1 == 7 and timeup == False:
+        print("Correct!")
+        print(".")
+        print(".")
+        print(".")
+        print(".")
+        print(".")
+        uubudh = input("press enter for the next question")
+        
+    else:
+        print("oof yuo lost boi")
 
 while True:
     easter_egg_count = 0
@@ -188,7 +208,7 @@ while True:
     print(".")
     print(".")
     print("")
-    print("!\\\\      /////")
+    print("!\\\\        ////")
     print("!    \     |")
     print("!____\      \\\\")
     print("!    \          |")
@@ -616,3 +636,4 @@ while True:
         print("thank you for playing!")
 
     jay = input("press enter to restart BabyShake 3")
+
